@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      input {
+        padding: 5px 30px;
+      }
+    </style>
+    <title>Title</title>
+  </head>
+  <body>
+    <div
+      class="container d-flex align-items-center justify-content-center vh-100"
+    >
+      <div
+        class="col-10 col-sm-8 col-md-6 col-lg-4 bg-light justify-content-center align-self-center border border-1 rounded shadow-sm"
+      >
+        <form class="col-12 py-5 position-relative" action="" class="row">
+          <a href="index.html"
+            ><i
+              style="right: 6%; top: 7%"
+              id="close"
+              class="fa-sharp fa-solid fa-xmark fa-lg position-absolute text-black"
+            ></i>
+          </a>
+          <div class="row col-12">
+            <h2 class="text-center fw-light fs-3">Forgot Password</h2>
+          </div>
+          <!-- <div class="row mx-2 my-3">
+            <div class="col-12">
+              <i
+                style="z-index: 1"
+                class="fa fa-user position-absolute p-1"
+                aria-hidden="true"
+              ></i>
+              <input
+                class="ps-4 position-relative rounded w-100 border border-1 shadow-sm"
+                type="text"
+                placeholder="Username"
+              />
+            </div>
+          </div> -->
+          <div class="row mx-2 my-4">
+            <div class=" col-12 position-relative">
+              <i
+                style="z-index: 1"
+                class="fa fa-lock position-absolute m-2"
+                aria-hidden="true"
+              ></i>
+              <small
+                style="margin-left: 30px; top:100%"
+                class="position-absolute  text-danger border border-0"
+              ></small>
+              <input
+                id="passWordOld"
+                class="position-relative rounded w-100 border border-1 shadow-sm"
+                type="password"
+                placeholder="Old PassWord"
+              />
+             
+            </div>
+          </div>
+          <div class="row mx-2 my-4">
+            <div class="col-12 position-relative">
+              <i
+                style="z-index: 1"
+                class="fa fa-lock position-absolute m-2"
+                aria-hidden="true"
+              ></i>
+              <small
+                style="margin-left: 30px; top:100%"
+                class=" position-absolute d-block text-danger border border-0"
+              ></small>
+              <input 
+                id="passWordNew"
+                class="position-relative rounded w-100 border border-1 shadow-sm"
+                type="password"
+                placeholder="New PassWord"
+              />
+              
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col-12">
+              <button
+                style="background-color: #00ce81"
+                class="btn btn-primary w-100 mt-2 shadow-sm border-0"
+                type="submit"
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="module"  src="forgotprd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
